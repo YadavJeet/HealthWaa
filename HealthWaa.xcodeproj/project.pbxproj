@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39AD56D91FECA0F5275A7D90 /* Pods_HealthWaaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B5E3E8C58FC95DD291AB4A /* Pods_HealthWaaUITests.framework */; };
+		450E99016F0ED276BBDCDA4D /* Pods_HealthWaa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67FD14B6132F1D62715C55D /* Pods_HealthWaa.framework */; };
+		D408392020C07FB700E71D93 /* ic_child.png in Resources */ = {isa = PBXBuildFile; fileRef = D408391B20C07FAF00E71D93 /* ic_child.png */; };
+		D408392120C07FB700E71D93 /* ic_mother.png in Resources */ = {isa = PBXBuildFile; fileRef = D408391C20C07FB100E71D93 /* ic_mother.png */; };
+		D408392220C07FB700E71D93 /* ic_sister.png in Resources */ = {isa = PBXBuildFile; fileRef = D408391D20C07FB200E71D93 /* ic_sister.png */; };
+		D408392320C07FB700E71D93 /* ic_brother.png in Resources */ = {isa = PBXBuildFile; fileRef = D408391E20C07FB400E71D93 /* ic_brother.png */; };
+		D408392420C07FB700E71D93 /* ic_father.png in Resources */ = {isa = PBXBuildFile; fileRef = D408391F20C07FB600E71D93 /* ic_father.png */; };
+		D408392720C0853B00E71D93 /* EmergencyContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408392520C0853B00E71D93 /* EmergencyContactCell.swift */; };
+		D408392820C0853B00E71D93 /* EmergencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D408392620C0853B00E71D93 /* EmergencyContactCell.xib */; };
+		D412E4B32009D48700C38A97 /* right-alignmen.png in Resources */ = {isa = PBXBuildFile; fileRef = D412E4B22009D48600C38A97 /* right-alignmen.png */; };
+		D446F4081FFFDA75004CFAE0 /* NumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F4071FFFDA75004CFAE0 /* NumberVC.swift */; };
+		D446F40A1FFFEBF4004CFAE0 /* AgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F4091FFFEBF4004CFAE0 /* AgeVC.swift */; };
+		D446F40D1FFFFAE1004CFAE0 /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F40C1FFFFAE1004CFAE0 /* EmailVC.swift */; };
+		D446F40F2000A893004CFAE0 /* CreatePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F40E2000A893004CFAE0 /* CreatePasswordVC.swift */; };
+		D446F4112000B709004CFAE0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F4102000B709004CFAE0 /* HomeVC.swift */; };
+		D446F4142000BC7F004CFAE0 /* AdharVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F4132000BC7F004CFAE0 /* AdharVC.swift */; };
+		D446F4162000BC90004CFAE0 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F4152000BC90004CFAE0 /* PasswordVC.swift */; };
+		D446F4182000BCA6004CFAE0 /* FogotpasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446F4172000BCA6004CFAE0 /* FogotpasswordVC.swift */; };
+		D45BF91A20C313F8007F1291 /* FamilyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45BF91820C313F8007F1291 /* FamilyCell.swift */; };
+		D45BF91B20C313F8007F1291 /* FamilyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45BF91920C313F8007F1291 /* FamilyCell.xib */; };
+		D4887EE020BF137900C99C29 /* AddFamityDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4887EDF20BF137900C99C29 /* AddFamityDetailVC.swift */; };
+		D4AAC0461FFD511600FB59B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC0451FFD511600FB59B1 /* AppDelegate.swift */; };
+		D4AAC0481FFD511600FB59B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC0471FFD511600FB59B1 /* ViewController.swift */; };
+		D4AAC04B1FFD511600FB59B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AAC0491FFD511600FB59B1 /* Main.storyboard */; };
+		D4AAC04E1FFD511600FB59B1 /* HealthWaa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC04C1FFD511600FB59B1 /* HealthWaa.xcdatamodeld */; };
+		D4AAC0501FFD511600FB59B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AAC04F1FFD511600FB59B1 /* Assets.xcassets */; };
+		D4AAC0531FFD511600FB59B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AAC0511FFD511600FB59B1 /* LaunchScreen.storyboard */; };
+		D4AAC05E1FFD511700FB59B1 /* HealthWaaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC05D1FFD511700FB59B1 /* HealthWaaTests.swift */; };
+		D4AAC0691FFD511700FB59B1 /* HealthWaaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC0681FFD511700FB59B1 /* HealthWaaUITests.swift */; };
+		D4AAC0791FFD56D800FB59B1 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AAC0781FFD56D800FB59B1 /* left-arrow.png */; };
+		D4AAC07B1FFD57EE00FB59B1 /* MeetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC07A1FFD57EE00FB59B1 /* MeetVC.swift */; };
+		D4AAC07D1FFD5B7100FB59B1 /* FinallyMeetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC07C1FFD5B7100FB59B1 /* FinallyMeetVC.swift */; };
+		D4AAC07F1FFD614D00FB59B1 /* GenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC07E1FFD614D00FB59B1 /* GenderVC.swift */; };
+		D4AAC0841FFE8D8700FB59B1 /* GlobleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC0811FFE8D8600FB59B1 /* GlobleClass.swift */; };
+		D4AAC0851FFE8D8700FB59B1 /* ServerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC0821FFE8D8700FB59B1 /* ServerController.swift */; };
+		D4AAC0861FFE8D8700FB59B1 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC0831FFE8D8700FB59B1 /* Singleton.swift */; };
+		D4AAC0881FFE914600FB59B1 /* SelectCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AAC0871FFE914600FB59B1 /* SelectCountryVC.swift */; };
+		D4C46A0A20C3C0710007E53D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C46A0920C3C0710007E53D /* Models.swift */; };
+		D4CF068420BF5F8B002AC60D /* ic_female.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CF068220BF5F8A002AC60D /* ic_female.png */; };
+		D4CF068520BF5F8B002AC60D /* ic_male.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CF068320BF5F8B002AC60D /* ic_male.png */; };
+		D4D216AB20BBAC1E00854088 /* DownLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D216AA20BBAC1C00854088 /* DownLogo.png */; };
+		D4E2D7D420B945E20038CE97 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2D7D320B945E20038CE97 /* Extentions.swift */; };
+		D4E2D7DB20B95C1F0038CE97 /* FamilyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2D7DA20B95C1F0038CE97 /* FamilyVC.swift */; };
+		D4E2D7DD20B95C460038CE97 /* EmergencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2D7DC20B95C460038CE97 /* EmergencyVC.swift */; };
+		D4ED07B620C1C87B00203827 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = D4ED07B520C1C87900203827 /* drop.png */; };
+		DDFB42382F7B25F2A0E3776A /* Pods_HealthWaaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D80C0BD380E883F864A594C /* Pods_HealthWaaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4AAC05A1FFD511700FB59B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4AAC03A1FFD511600FB59B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4AAC0411FFD511600FB59B1;
+			remoteInfo = HealthWaa;
+		};
+		D4AAC0651FFD511700FB59B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4AAC03A1FFD511600FB59B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4AAC0411FFD511600FB59B1;
+			remoteInfo = HealthWaa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1208B47148B8015FBF74B4D7 /* Pods-HealthWaaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthWaaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthWaaTests/Pods-HealthWaaTests.release.xcconfig"; sourceTree = "<group>"; };
+		14B5E3E8C58FC95DD291AB4A /* Pods_HealthWaaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthWaaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D80C0BD380E883F864A594C /* Pods_HealthWaaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthWaaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9B8687589C88CE663CA7F1 /* Pods-HealthWaa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthWaa.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthWaa/Pods-HealthWaa.release.xcconfig"; sourceTree = "<group>"; };
+		9AA22F969641A07BA40D2DE2 /* Pods-HealthWaaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthWaaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthWaaTests/Pods-HealthWaaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A500C900F19F620EAA98462D /* Pods-HealthWaaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthWaaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthWaaUITests/Pods-HealthWaaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B67FD14B6132F1D62715C55D /* Pods_HealthWaa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthWaa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D408391B20C07FAF00E71D93 /* ic_child.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_child.png; sourceTree = "<group>"; };
+		D408391C20C07FB100E71D93 /* ic_mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mother.png; sourceTree = "<group>"; };
+		D408391D20C07FB200E71D93 /* ic_sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_sister.png; sourceTree = "<group>"; };
+		D408391E20C07FB400E71D93 /* ic_brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_brother.png; sourceTree = "<group>"; };
+		D408391F20C07FB600E71D93 /* ic_father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_father.png; sourceTree = "<group>"; };
+		D408392520C0853B00E71D93 /* EmergencyContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactCell.swift; sourceTree = "<group>"; };
+		D408392620C0853B00E71D93 /* EmergencyContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmergencyContactCell.xib; sourceTree = "<group>"; };
+		D412E4B22009D48600C38A97 /* right-alignmen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-alignmen.png"; sourceTree = "<group>"; };
+		D446F4071FFFDA75004CFAE0 /* NumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberVC.swift; sourceTree = "<group>"; };
+		D446F4091FFFEBF4004CFAE0 /* AgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeVC.swift; sourceTree = "<group>"; };
+		D446F40C1FFFFAE1004CFAE0 /* EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
+		D446F40E2000A893004CFAE0 /* CreatePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordVC.swift; sourceTree = "<group>"; };
+		D446F4102000B709004CFAE0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D446F4132000BC7F004CFAE0 /* AdharVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdharVC.swift; sourceTree = "<group>"; };
+		D446F4152000BC90004CFAE0 /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		D446F4172000BCA6004CFAE0 /* FogotpasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogotpasswordVC.swift; sourceTree = "<group>"; };
+		D45BF91820C313F8007F1291 /* FamilyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyCell.swift; sourceTree = "<group>"; };
+		D45BF91920C313F8007F1291 /* FamilyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FamilyCell.xib; sourceTree = "<group>"; };
+		D4887EDF20BF137900C99C29 /* AddFamityDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFamityDetailVC.swift; sourceTree = "<group>"; };
+		D4AAC0421FFD511600FB59B1 /* HealthWaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthWaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AAC0451FFD511600FB59B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4AAC0471FFD511600FB59B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4AAC04A1FFD511600FB59B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4AAC04D1FFD511600FB59B1 /* HealthWaa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthWaa.xcdatamodel; sourceTree = "<group>"; };
+		D4AAC04F1FFD511600FB59B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4AAC0521FFD511600FB59B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4AAC0541FFD511600FB59B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AAC0591FFD511700FB59B1 /* HealthWaaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthWaaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AAC05D1FFD511700FB59B1 /* HealthWaaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthWaaTests.swift; sourceTree = "<group>"; };
+		D4AAC05F1FFD511700FB59B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AAC0641FFD511700FB59B1 /* HealthWaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthWaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AAC0681FFD511700FB59B1 /* HealthWaaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthWaaUITests.swift; sourceTree = "<group>"; };
+		D4AAC06A1FFD511700FB59B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AAC0781FFD56D800FB59B1 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		D4AAC07A1FFD57EE00FB59B1 /* MeetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetVC.swift; sourceTree = "<group>"; };
+		D4AAC07C1FFD5B7100FB59B1 /* FinallyMeetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinallyMeetVC.swift; sourceTree = "<group>"; };
+		D4AAC07E1FFD614D00FB59B1 /* GenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderVC.swift; sourceTree = "<group>"; };
+		D4AAC0811FFE8D8600FB59B1 /* GlobleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobleClass.swift; sourceTree = "<group>"; };
+		D4AAC0821FFE8D8700FB59B1 /* ServerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerController.swift; sourceTree = "<group>"; };
+		D4AAC0831FFE8D8700FB59B1 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		D4AAC0871FFE914600FB59B1 /* SelectCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountryVC.swift; sourceTree = "<group>"; };
+		D4C46A0920C3C0710007E53D /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D4CF068220BF5F8A002AC60D /* ic_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_female.png; sourceTree = "<group>"; };
+		D4CF068320BF5F8B002AC60D /* ic_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_male.png; sourceTree = "<group>"; };
+		D4D216A420BBAA7300854088 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D4D216AA20BBAC1C00854088 /* DownLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownLogo.png; sourceTree = "<group>"; };
+		D4E2D7D320B945E20038CE97 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		D4E2D7DA20B95C1F0038CE97 /* FamilyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyVC.swift; sourceTree = "<group>"; };
+		D4E2D7DC20B95C460038CE97 /* EmergencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyVC.swift; sourceTree = "<group>"; };
+		D4ED07B520C1C87900203827 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		F31BB714FDF81737C2157618 /* Pods-HealthWaaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthWaaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthWaaUITests/Pods-HealthWaaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC8AB6A76BAEFC6612ECEB1B /* Pods-HealthWaa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthWaa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthWaa/Pods-HealthWaa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4AAC03F1FFD511600FB59B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450E99016F0ED276BBDCDA4D /* Pods_HealthWaa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AAC0561FFD511700FB59B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB42382F7B25F2A0E3776A /* Pods_HealthWaaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AAC0611FFD511700FB59B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AD56D91FECA0F5275A7D90 /* Pods_HealthWaaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264F4AE8090DC0A6AC0173DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B67FD14B6132F1D62715C55D /* Pods_HealthWaa.framework */,
+				4D80C0BD380E883F864A594C /* Pods_HealthWaaTests.framework */,
+				14B5E3E8C58FC95DD291AB4A /* Pods_HealthWaaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		408673FD8190AFC38698E389 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC8AB6A76BAEFC6612ECEB1B /* Pods-HealthWaa.debug.xcconfig */,
+				8C9B8687589C88CE663CA7F1 /* Pods-HealthWaa.release.xcconfig */,
+				9AA22F969641A07BA40D2DE2 /* Pods-HealthWaaTests.debug.xcconfig */,
+				1208B47148B8015FBF74B4D7 /* Pods-HealthWaaTests.release.xcconfig */,
+				A500C900F19F620EAA98462D /* Pods-HealthWaaUITests.debug.xcconfig */,
+				F31BB714FDF81737C2157618 /* Pods-HealthWaaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D446F40B1FFFFA71004CFAE0 /* SignupVC */ = {
+			isa = PBXGroup;
+			children = (
+				D4AAC0471FFD511600FB59B1 /* ViewController.swift */,
+				D4AAC07A1FFD57EE00FB59B1 /* MeetVC.swift */,
+				D4AAC07C1FFD5B7100FB59B1 /* FinallyMeetVC.swift */,
+				D4AAC07E1FFD614D00FB59B1 /* GenderVC.swift */,
+				D4AAC0871FFE914600FB59B1 /* SelectCountryVC.swift */,
+				D446F4071FFFDA75004CFAE0 /* NumberVC.swift */,
+				D446F4091FFFEBF4004CFAE0 /* AgeVC.swift */,
+				D446F40C1FFFFAE1004CFAE0 /* EmailVC.swift */,
+				D446F40E2000A893004CFAE0 /* CreatePasswordVC.swift */,
+			);
+			name = SignupVC;
+			sourceTree = "<group>";
+		};
+		D446F4122000BC61004CFAE0 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				D446F4132000BC7F004CFAE0 /* AdharVC.swift */,
+				D446F4152000BC90004CFAE0 /* PasswordVC.swift */,
+			);
+			name = LoginVC;
+			sourceTree = "<group>";
+		};
+		D4AAC0391FFD511600FB59B1 = {
+			isa = PBXGroup;
+			children = (
+				D4AAC0441FFD511600FB59B1 /* HealthWaa */,
+				D4AAC05C1FFD511700FB59B1 /* HealthWaaTests */,
+				D4AAC0671FFD511700FB59B1 /* HealthWaaUITests */,
+				D4AAC0431FFD511600FB59B1 /* Products */,
+				408673FD8190AFC38698E389 /* Pods */,
+				264F4AE8090DC0A6AC0173DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4AAC0431FFD511600FB59B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4AAC0421FFD511600FB59B1 /* HealthWaa.app */,
+				D4AAC0591FFD511700FB59B1 /* HealthWaaTests.xctest */,
+				D4AAC0641FFD511700FB59B1 /* HealthWaaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AAC0441FFD511600FB59B1 /* HealthWaa */ = {
+			isa = PBXGroup;
+			children = (
+				D4C46A0820C3C05E0007E53D /* ModelClass */,
+				D4E2D7D520B947900038CE97 /* Custom cell */,
+				D4AAC0801FFE8D7000FB59B1 /* GlobleClass */,
+				D446F4122000BC61004CFAE0 /* LoginVC */,
+				D446F40B1FFFFA71004CFAE0 /* SignupVC */,
+				D446F4102000B709004CFAE0 /* HomeVC.swift */,
+				D4E2D7DA20B95C1F0038CE97 /* FamilyVC.swift */,
+				D4E2D7DC20B95C460038CE97 /* EmergencyVC.swift */,
+				D4887EDF20BF137900C99C29 /* AddFamityDetailVC.swift */,
+				D4AAC0451FFD511600FB59B1 /* AppDelegate.swift */,
+				D446F4172000BCA6004CFAE0 /* FogotpasswordVC.swift */,
+				D408391E20C07FB400E71D93 /* ic_brother.png */,
+				D408391B20C07FAF00E71D93 /* ic_child.png */,
+				D408391F20C07FB600E71D93 /* ic_father.png */,
+				D408391C20C07FB100E71D93 /* ic_mother.png */,
+				D4ED07B520C1C87900203827 /* drop.png */,
+				D408391D20C07FB200E71D93 /* ic_sister.png */,
+				D4AAC0491FFD511600FB59B1 /* Main.storyboard */,
+				D4AAC04F1FFD511600FB59B1 /* Assets.xcassets */,
+				D4D2168D20BBAA4700854088 /* Images */,
+				D4AAC0511FFD511600FB59B1 /* LaunchScreen.storyboard */,
+				D4AAC0541FFD511600FB59B1 /* Info.plist */,
+				D4AAC04C1FFD511600FB59B1 /* HealthWaa.xcdatamodeld */,
+			);
+			path = HealthWaa;
+			sourceTree = "<group>";
+		};
+		D4AAC05C1FFD511700FB59B1 /* HealthWaaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4AAC05D1FFD511700FB59B1 /* HealthWaaTests.swift */,
+				D4AAC05F1FFD511700FB59B1 /* Info.plist */,
+			);
+			path = HealthWaaTests;
+			sourceTree = "<group>";
+		};
+		D4AAC0671FFD511700FB59B1 /* HealthWaaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4AAC0681FFD511700FB59B1 /* HealthWaaUITests.swift */,
+				D4AAC06A1FFD511700FB59B1 /* Info.plist */,
+			);
+			path = HealthWaaUITests;
+			sourceTree = "<group>";
+		};
+		D4AAC0801FFE8D7000FB59B1 /* GlobleClass */ = {
+			isa = PBXGroup;
+			children = (
+				D4AAC0811FFE8D8600FB59B1 /* GlobleClass.swift */,
+				D4E2D7D320B945E20038CE97 /* Extentions.swift */,
+				D4AAC0821FFE8D8700FB59B1 /* ServerController.swift */,
+				D4AAC0831FFE8D8700FB59B1 /* Singleton.swift */,
+			);
+			name = GlobleClass;
+			sourceTree = "<group>";
+		};
+		D4C46A0820C3C05E0007E53D /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				D4C46A0920C3C0710007E53D /* Models.swift */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		D4D2168D20BBAA4700854088 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D4CF068220BF5F8A002AC60D /* ic_female.png */,
+				D4CF068320BF5F8B002AC60D /* ic_male.png */,
+				D4D216A420BBAA7300854088 /* logo.png */,
+				D4D216AA20BBAC1C00854088 /* DownLogo.png */,
+				D412E4B22009D48600C38A97 /* right-alignmen.png */,
+				D4AAC0781FFD56D800FB59B1 /* left-arrow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D4E2D7D520B947900038CE97 /* Custom cell */ = {
+			isa = PBXGroup;
+			children = (
+				D408392520C0853B00E71D93 /* EmergencyContactCell.swift */,
+				D408392620C0853B00E71D93 /* EmergencyContactCell.xib */,
+				D45BF91820C313F8007F1291 /* FamilyCell.swift */,
+				D45BF91920C313F8007F1291 /* FamilyCell.xib */,
+			);
+			name = "Custom cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4AAC0411FFD511600FB59B1 /* HealthWaa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AAC06D1FFD511700FB59B1 /* Build configuration list for PBXNativeTarget "HealthWaa" */;
+			buildPhases = (
+				51DED4DD75012A8C1879BE8F /* [CP] Check Pods Manifest.lock */,
+				D4AAC03E1FFD511600FB59B1 /* Sources */,
+				D4AAC03F1FFD511600FB59B1 /* Frameworks */,
+				D4AAC0401FFD511600FB59B1 /* Resources */,
+				3DFDA80D9FBC614C36775EEF /* [CP] Embed Pods Frameworks */,
+				85DDC757E44519C4F951C732 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthWaa;
+			productName = HealthWaa;
+			productReference = D4AAC0421FFD511600FB59B1 /* HealthWaa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4AAC0581FFD511700FB59B1 /* HealthWaaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AAC0701FFD511700FB59B1 /* Build configuration list for PBXNativeTarget "HealthWaaTests" */;
+			buildPhases = (
+				27E489C8C69417A3686CDE98 /* [CP] Check Pods Manifest.lock */,
+				D4AAC0551FFD511700FB59B1 /* Sources */,
+				D4AAC0561FFD511700FB59B1 /* Frameworks */,
+				D4AAC0571FFD511700FB59B1 /* Resources */,
+				29F3A1B618AF69E94F50F0F5 /* [CP] Embed Pods Frameworks */,
+				CD2AD31F522AD0E1914C35AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4AAC05B1FFD511700FB59B1 /* PBXTargetDependency */,
+			);
+			name = HealthWaaTests;
+			productName = HealthWaaTests;
+			productReference = D4AAC0591FFD511700FB59B1 /* HealthWaaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4AAC0631FFD511700FB59B1 /* HealthWaaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AAC0731FFD511700FB59B1 /* Build configuration list for PBXNativeTarget "HealthWaaUITests" */;
+			buildPhases = (
+				6AE1C98D3B52BA4002E9F15D /* [CP] Check Pods Manifest.lock */,
+				D4AAC0601FFD511700FB59B1 /* Sources */,
+				D4AAC0611FFD511700FB59B1 /* Frameworks */,
+				D4AAC0621FFD511700FB59B1 /* Resources */,
+				53361633B24A57156B9A52F1 /* [CP] Embed Pods Frameworks */,
+				EFB0C0F89996B9F653E3B686 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4AAC0661FFD511700FB59B1 /* PBXTargetDependency */,
+			);
+			name = HealthWaaUITests;
+			productName = HealthWaaUITests;
+			productReference = D4AAC0641FFD511700FB59B1 /* HealthWaaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4AAC03A1FFD511600FB59B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jitendra yadav";
+				TargetAttributes = {
+					D4AAC0411FFD511600FB59B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D4AAC0581FFD511700FB59B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4AAC0411FFD511600FB59B1;
+					};
+					D4AAC0631FFD511700FB59B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4AAC0411FFD511600FB59B1;
+					};
+				};
+			};
+			buildConfigurationList = D4AAC03D1FFD511600FB59B1 /* Build configuration list for PBXProject "HealthWaa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4AAC0391FFD511600FB59B1;
+			productRefGroup = D4AAC0431FFD511600FB59B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4AAC0411FFD511600FB59B1 /* HealthWaa */,
+				D4AAC0581FFD511700FB59B1 /* HealthWaaTests */,
+				D4AAC0631FFD511700FB59B1 /* HealthWaaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4AAC0401FFD511600FB59B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CF068520BF5F8B002AC60D /* ic_male.png in Resources */,
+				D45BF91B20C313F8007F1291 /* FamilyCell.xib in Resources */,
+				D4D216AB20BBAC1E00854088 /* DownLogo.png in Resources */,
+				D408392120C07FB700E71D93 /* ic_mother.png in Resources */,
+				D4CF068420BF5F8B002AC60D /* ic_female.png in Resources */,
+				D4AAC0531FFD511600FB59B1 /* LaunchScreen.storyboard in Resources */,
+				D408392020C07FB700E71D93 /* ic_child.png in Resources */,
+				D408392320C07FB700E71D93 /* ic_brother.png in Resources */,
+				D4AAC0501FFD511600FB59B1 /* Assets.xcassets in Resources */,
+				D4AAC04B1FFD511600FB59B1 /* Main.storyboard in Resources */,
+				D4AAC0791FFD56D800FB59B1 /* left-arrow.png in Resources */,
+				D408392220C07FB700E71D93 /* ic_sister.png in Resources */,
+				D4ED07B620C1C87B00203827 /* drop.png in Resources */,
+				D408392420C07FB700E71D93 /* ic_father.png in Resources */,
+				D408392820C0853B00E71D93 /* EmergencyContactCell.xib in Resources */,
+				D412E4B32009D48700C38A97 /* right-alignmen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AAC0571FFD511700FB59B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AAC0621FFD511700FB59B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E489C8C69417A3686CDE98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthWaaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29F3A1B618AF69E94F50F0F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthWaaTests/Pods-HealthWaaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DFDA80D9FBC614C36775EEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HealthWaa/Pods-HealthWaa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JJFloatingActionButton/JJFloatingActionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJFloatingActionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthWaa/Pods-HealthWaa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DED4DD75012A8C1879BE8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthWaa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53361633B24A57156B9A52F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthWaaUITests/Pods-HealthWaaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE1C98D3B52BA4002E9F15D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthWaaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85DDC757E44519C4F951C732 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthWaa/Pods-HealthWaa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2AD31F522AD0E1914C35AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthWaaTests/Pods-HealthWaaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB0C0F89996B9F653E3B686 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthWaaUITests/Pods-HealthWaaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4AAC03E1FFD511600FB59B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AAC0841FFE8D8700FB59B1 /* GlobleClass.swift in Sources */,
+				D446F4162000BC90004CFAE0 /* PasswordVC.swift in Sources */,
+				D446F4142000BC7F004CFAE0 /* AdharVC.swift in Sources */,
+				D4AAC0861FFE8D8700FB59B1 /* Singleton.swift in Sources */,
+				D4AAC07D1FFD5B7100FB59B1 /* FinallyMeetVC.swift in Sources */,
+				D45BF91A20C313F8007F1291 /* FamilyCell.swift in Sources */,
+				D4887EE020BF137900C99C29 /* AddFamityDetailVC.swift in Sources */,
+				D446F40F2000A893004CFAE0 /* CreatePasswordVC.swift in Sources */,
+				D4AAC0481FFD511600FB59B1 /* ViewController.swift in Sources */,
+				D4AAC0461FFD511600FB59B1 /* AppDelegate.swift in Sources */,
+				D4E2D7DB20B95C1F0038CE97 /* FamilyVC.swift in Sources */,
+				D446F4112000B709004CFAE0 /* HomeVC.swift in Sources */,
+				D4AAC0851FFE8D8700FB59B1 /* ServerController.swift in Sources */,
+				D446F4081FFFDA75004CFAE0 /* NumberVC.swift in Sources */,
+				D4AAC04E1FFD511600FB59B1 /* HealthWaa.xcdatamodeld in Sources */,
+				D446F40A1FFFEBF4004CFAE0 /* AgeVC.swift in Sources */,
+				D408392720C0853B00E71D93 /* EmergencyContactCell.swift in Sources */,
+				D4E2D7DD20B95C460038CE97 /* EmergencyVC.swift in Sources */,
+				D446F40D1FFFFAE1004CFAE0 /* EmailVC.swift in Sources */,
+				D4AAC0881FFE914600FB59B1 /* SelectCountryVC.swift in Sources */,
+				D446F4182000BCA6004CFAE0 /* FogotpasswordVC.swift in Sources */,
+				D4AAC07B1FFD57EE00FB59B1 /* MeetVC.swift in Sources */,
+				D4AAC07F1FFD614D00FB59B1 /* GenderVC.swift in Sources */,
+				D4E2D7D420B945E20038CE97 /* Extentions.swift in Sources */,
+				D4C46A0A20C3C0710007E53D /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AAC0551FFD511700FB59B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AAC05E1FFD511700FB59B1 /* HealthWaaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AAC0601FFD511700FB59B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AAC0691FFD511700FB59B1 /* HealthWaaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4AAC05B1FFD511700FB59B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4AAC0411FFD511600FB59B1 /* HealthWaa */;
+			targetProxy = D4AAC05A1FFD511700FB59B1 /* PBXContainerItemProxy */;
+		};
+		D4AAC0661FFD511700FB59B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4AAC0411FFD511600FB59B1 /* HealthWaa */;
+			targetProxy = D4AAC0651FFD511700FB59B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4AAC0491FFD511600FB59B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AAC04A1FFD511600FB59B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4AAC0511FFD511600FB59B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AAC0521FFD511600FB59B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4AAC06B1FFD511700FB59B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4AAC06C1FFD511700FB59B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4AAC06E1FFD511700FB59B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8AB6A76BAEFC6612ECEB1B /* Pods-HealthWaa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFL5K4QYM5;
+				INFOPLIST_FILE = HealthWaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Healthwaa.ios.HealthWaa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4AAC06F1FFD511700FB59B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9B8687589C88CE663CA7F1 /* Pods-HealthWaa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFL5K4QYM5;
+				INFOPLIST_FILE = HealthWaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Healthwaa.ios.HealthWaa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4AAC0711FFD511700FB59B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA22F969641A07BA40D2DE2 /* Pods-HealthWaaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthWaaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Healthwaa.ios.HealthWaaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthWaa.app/HealthWaa";
+			};
+			name = Debug;
+		};
+		D4AAC0721FFD511700FB59B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1208B47148B8015FBF74B4D7 /* Pods-HealthWaaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthWaaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Healthwaa.ios.HealthWaaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthWaa.app/HealthWaa";
+			};
+			name = Release;
+		};
+		D4AAC0741FFD511700FB59B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A500C900F19F620EAA98462D /* Pods-HealthWaaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthWaaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Healthwaa.ios.HealthWaaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthWaa;
+			};
+			name = Debug;
+		};
+		D4AAC0751FFD511700FB59B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31BB714FDF81737C2157618 /* Pods-HealthWaaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthWaaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-Healthwaa.ios.HealthWaaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthWaa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4AAC03D1FFD511600FB59B1 /* Build configuration list for PBXProject "HealthWaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AAC06B1FFD511700FB59B1 /* Debug */,
+				D4AAC06C1FFD511700FB59B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AAC06D1FFD511700FB59B1 /* Build configuration list for PBXNativeTarget "HealthWaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AAC06E1FFD511700FB59B1 /* Debug */,
+				D4AAC06F1FFD511700FB59B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AAC0701FFD511700FB59B1 /* Build configuration list for PBXNativeTarget "HealthWaaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AAC0711FFD511700FB59B1 /* Debug */,
+				D4AAC0721FFD511700FB59B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AAC0731FFD511700FB59B1 /* Build configuration list for PBXNativeTarget "HealthWaaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AAC0741FFD511700FB59B1 /* Debug */,
+				D4AAC0751FFD511700FB59B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4AAC04C1FFD511600FB59B1 /* HealthWaa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4AAC04D1FFD511600FB59B1 /* HealthWaa.xcdatamodel */,
+			);
+			currentVersion = D4AAC04D1FFD511600FB59B1 /* HealthWaa.xcdatamodel */;
+			path = HealthWaa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4AAC03A1FFD511600FB59B1 /* Project object */;
+}
